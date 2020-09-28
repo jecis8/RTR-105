@@ -1,0 +1,61 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  firefox &
+    4  echo $PATH
+    5  echo $?
+    6  ls -l
+    7  pwd
+    8  git clone https://github.com/jecis8/RTR-105
+    9  ls -lt
+   10  cd RTR-105
+   11  ls -lta
+   12  ls -la
+   13  cat README.md
+   14  pwd
+   15  nano first.c
+   16  ls -la
+   17  ls -lt
+   18  gcc first.c
+   19  ls -lt
+   20  ./a.out
+   21  echo $?
+   22  cat a.out
+   23  ls -lt
+   24  nano second.c
+   25  gcc second.c
+   26  ls -lt
+   27  gcc first.c -o first.out
+   28  ls -lt
+   29  gcc first.c -o second.out
+   30  ls -lt
+   31  cp first.c first_error.c
+   32  nano first_error.c
+   33  ls -lt
+   34  cp first.c HelloWorld.c
+   35  nano HelloWorld.c
+   36  ls -lt
+   37  gcc HelloWorld.c
+   38  nano HelloWorld.c
+   39  gcc HelloWorld.c
+   40  nano HelloWorld.c
+   41  cat HelloWorld.c
+   42  nano HelloWorld.c
+   43  cat HelloWorld.c
+   44  ./a.out
+   45  ls -lt
+   46  gcc HelloWorld.c
+   47  ls -lt
+   48  ./a.out
+   49  nano HelloWorld.c
+   50  gcc HelloWorld.c
+   51  ./a.out
+   52  nano HelloWorld.c
+   53  ./a.out
+   54  echo $?
+   55  nano HelloWorld.c
+   56  gcc HelloWorld.c
+   57  ./a.out
+   58  echo $?
+   59  pwd
+   60  history
+   61  history > history_20200928.txt

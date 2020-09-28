@@ -127,9 +127,9 @@ Datormācība (pamatkurss) elektroniskā klade
    61  ls -lt EFG/
    62  ls
    63  pwd
-   64  echo $PATH
+   64  echo $PATH direktoriju uzskaitījums, kurās jāielogojas, ja piesauc komandu
    65  PATH=$PATH:~
-   66  echo $PATH
+echo $? noskaidrot, kādas ir pēdējās darbības izpildīšanas rezultāts (ja viss kārtībā, 0)
    67  my_
    68  cd ..
    69  pwd
